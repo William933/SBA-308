@@ -103,11 +103,12 @@ const CourseInfo = {
   //AVG or points Possible
   
 
-  const Average= score1 + possible2 / score2+ possible2;
-  let score1 = 4;
+  
+  let score1= 4;
   let score2 = 6;
   let possible1= 20;
   let possible2= 30;
+  const Average= [score1 + possible2 / score2 + possible2];
   console.log(Average)
   
 

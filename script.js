@@ -100,17 +100,25 @@ const CourseInfo = {
   
   console.log(result);
 
-  //AVG or points Possible
   
 
   
-  let score1= 4;
-  let score2 = 6;
-  let possible1= 20;
-  let possible2= 30;
-  const Average= [score1 + possible2 / score2 + possible2];
-  console.log(Average)
-  
+//AVG or points Possible with late deduction for Learner 139
+
+
+
+  let score1= 39;
+  let score2 = 50;
+  let possible1= 140;
+  let possible2= 150;
+  const avgFA= [score1 + (possible1-(15))] 
+  const avgSA= [score2 + possible2];
+  const avgWeight= avgFA
+  console.log(avgFA); 
+  console.log(avgSA);
+
+
+
 
 
   
